@@ -1,0 +1,131 @@
+.main{
+  font-family: [Hanken Grotesk];
+  display: flex;
+  flex-direction: row;
+}
+.container{
+  justify-content: center;
+  display: flex; 
+  text-align: center;
+  width:300px;
+  height:450px;
+  margin-left:450px;
+  margin-top:130px;
+ background-color: rgb(115, 0, 255); 
+  border-radius: 25px;
+}
+.text-item{
+  color: white;
+  font-size: larger;
+  margin-top: 40px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: rgb(97, 30, 205);
+    box-shadow: rgb(97, 30, 205);
+    height: 150px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.number{
+  padding-top: 30px;
+}
+.text{
+  text-align: center;
+  font-size: 40px;
+}
+.inner-text{
+  color: white;
+  font-size: medium;
+  font-weight: 100;
+}
+.content{
+  text-align:center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: medium;
+}
+.second-container{
+  padding-left: 30px;
+  padding-top: 40px;
+  width:270px;
+  height:380px;
+  margin-top:150px;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 23px;
+  box-shadow: 5px 10px 5px rgb(109, 105, 105);
+}
+.reaction{
+  background-color: rgb(237, 211, 194);
+  color: red;
+  margin-top: 30px;
+  font-size:medium;
+  padding: 10px;
+  width:220px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 0.4;
+}
+.memory{
+  background-color: rgb(240, 218, 172);
+  color: rgb(232, 184, 27);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size:medium;
+  padding: 10px;
+  width:220px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.verbal{
+  background-color: rgb(203, 236, 219);
+  color: rgb(19, 184, 24);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size:medium;
+  padding: 10px;
+  width:220px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.visual{
+  background-color: rgb(208, 204, 243);
+  color: rgb(18, 7, 130);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size:medium;
+  padding: 10px;
+  width:220px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+button{
+margin-top: 30px;
+width:240px;
+height: 40px;
+border-radius: 30px;
+border: none;
+background-color:rgb(45, 45, 77);
+color: white;
+font-size: medium;
+}
+
+
+
