@@ -28,21 +28,21 @@ function App() {
       <div className='second-container'>
         Summary
     <div className='reaction'>
-      <span>
+      <span style={{display:'flex'}}>
         <img src={Reaction}/>
         &nbsp; Reaction
       </span> 80/100</div>
         <div  className='memory'>
-        <span>
+        <span style={{display:'flex'}}>
         <img src={Memory}/>
         &nbsp; Memory
         </span>92/100</div>
         <div className='verbal'>
-        <span >
+        <span style={{display:'flex'}} >
         <img src={Verbal}/>
         &nbsp; verbal</span>61/100</div>
         <div className='visual'>
-        <span >
+        <span style={{display:'flex'}}>
         <img src={Visual}/>
         &nbsp; Visual</span>72/100
         </div>
