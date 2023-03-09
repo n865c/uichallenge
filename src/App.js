@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from '@material-ui/core';
 import Reaction from './images/icon-reaction.svg';
 import Memory from './images/icon-memory.svg';
 import Verbal from  './images/icon-verbal.svg';
@@ -29,24 +27,21 @@ function App() {
         Summary
     <div className='reaction'>
       <span style={{display:'flex'}}>
-        <img src={Reaction}/>
-        &nbsp; Reaction
-      </span> 80/100</div>
+        <img src={Reaction}/> 
+        &nbsp;Reaction </span><span style={{color:'rgb(45, 45, 77)'}}>80<span style={{color:'gray'}}>/100</span></span></div>
         <div  className='memory'>
         <span style={{display:'flex'}}>
         <img src={Memory}/>
         &nbsp; Memory
-        </span>92/100</div>
+        </span><span style={{color:'rgb(45, 45, 77)'}}>92<span style={{color:'gray'}}>/100</span></span></div>
         <div className='verbal'>
         <span style={{display:'flex'}} >
         <img src={Verbal}/>
-        &nbsp; verbal</span>61/100</div>
-        <div className='visual'>
-        <span style={{display:'flex'}}>
+      &nbsp; Verbal</span><span style={{color:'rgb(45, 45, 77)'}}>80<span style={{color:'gray'}}>/100</span></span></div>
+         <div className='visual'>
+        <span style={{display:'flex'}} >
         <img src={Visual}/>
-        &nbsp; Visual</span>72/100
-        </div>
-        
+        &nbsp; Visual</span> <span style={{color:'rgb(45, 45, 77)'}}>72<span style={{color:'gray'}}>/100</span></span></div>
         <button>Contiue</button>
         </div>
       </div>
