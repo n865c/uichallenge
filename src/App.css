@@ -1,15 +1,16 @@
 .main{
-  font-family: [Hanken Grotesk];
+  font-family: 'Hanken Grotesk', sans-serif;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .container{
   justify-content: center;
+  align-self: center;
   display: flex; 
   text-align: center;
   width:300px;
   height:450px;
-  margin-left:450px;
   margin-top:130px;
  background-color: rgb(115, 0, 255); 
   border-radius: 25px;
@@ -21,7 +22,7 @@
 }
 .circle{
     border-radius: 50%;
-    background-image: linear-gradient(180deg,rgb(79, 13, 186) 50%,  rgb(115, 0, 255) 95%);
+    background-image: linear-gradient(180deg,rgb(79, 13, 186) 50%,  rgb(115, 0, 255) 98%);
     box-shadow: rgb(97, 30, 205);
     height: 150px;
     width: 150px;
@@ -32,6 +33,7 @@
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+    align-self: center;
 }
 .number{
   padding-top: 30px;
@@ -54,9 +56,9 @@
 }
 .second-container{
   padding-left: 30px;
-  padding-top: 40px;
-  width:270px;
-  height:380px;
+  width:300px;
+  height:430px;
+  align-self: center;
   margin-top:150px;
   background-color: white;
   border-radius: 20px;
@@ -68,10 +70,10 @@
   background-color:  rgb(248, 240, 240);
   color: hsl(0, 100%, 67%);
   margin-top: 30px;
-  font-size:medium;
+  font-size:large;
   padding: 10px;
-  width:220px;
-  border-radius: 10px;
+  width:250px;
+  border-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -82,10 +84,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 15px;
-  font-size:medium;
+  margin-top: 20px;
+  font-size:large;
   padding: 10px;
-  width:220px;
+  width:250px;
   border-radius: 10px;
 }
 .verbal{
@@ -94,10 +96,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 15px;
-  font-size:medium;
+  margin-top: 20px;
+  font-size:large;
   padding: 10px;
-  width:220px;
+  width:250px;
   border-radius: 10px;
 }
 .visual{
@@ -106,15 +108,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 15px;
-  font-size:medium;
+  margin-top: 20px;
+  font-size:large;
   padding: 10px;
-  width:220px;
+  width:250px;
   border-radius: 10px;
 }
 button{
-margin-top: 30px;
-width:240px;
+margin-top: 45px;
+width:270px;
 height: 40px;
 border-radius: 30px;
 border: none;
@@ -122,6 +124,19 @@ background-color:rgb(45, 45, 77);
 color: white;
 font-size: medium;
 }
-
-
-
+@media screen and (max-width:600px)
+{
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+  }
+  .container{
+   margin-top: -10px;
+    align-self: center; 
+  }
+  .second-container{
+    margin-top: 15px;
+    align-self: center;
+  }
+}

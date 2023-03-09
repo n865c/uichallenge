@@ -28,20 +28,20 @@ function App() {
     <div className='reaction'>
       <span style={{display:'flex'}}>
         <img src={Reaction}/> 
-        &nbsp;Reaction </span><span style={{color:'rgb(45, 45, 77)'}}>80<span style={{color:'gray'}}>/100</span></span></div>
+        &nbsp;Reaction </span><span style={{color:'rgb(45, 45, 77)',fontWeight:'bold'}}>80<span style={{color:'gray'}}>/100</span></span></div>
         <div  className='memory'>
         <span style={{display:'flex'}}>
         <img src={Memory}/>
         &nbsp; Memory
-        </span><span style={{color:'rgb(45, 45, 77)'}}>92<span style={{color:'gray'}}>/100</span></span></div>
+        </span><span style={{color:'rgb(45, 45, 77)',fontWeight:'bold'}}>92<span style={{color:'gray'}}>/100</span></span></div>
         <div className='verbal'>
         <span style={{display:'flex'}} >
         <img src={Verbal}/>
-      &nbsp; Verbal</span><span style={{color:'rgb(45, 45, 77)'}}>80<span style={{color:'gray'}}>/100</span></span></div>
+      &nbsp; Verbal</span><span style={{color:'rgb(45, 45, 77)',fontWeight:'bold'}}>80<span style={{color:'gray'}}>/100</span></span></div>
          <div className='visual'>
         <span style={{display:'flex'}} >
         <img src={Visual}/>
-        &nbsp; Visual</span> <span style={{color:'rgb(45, 45, 77)'}}>72<span style={{color:'gray'}}>/100</span></span></div>
+        &nbsp; Visual</span> <span style={{color:'rgb(45, 45, 77)',fontWeight:'bold'}}>72<span style={{color:'gray'}}>/100</span></span></div>
         <button>Contiue</button>
         </div>
       </div>
